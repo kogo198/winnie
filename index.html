@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winnie Rotich | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">WR<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#work">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn-pill btn-white">Let's talk <i class="fa-solid fa-arrow-right"></i></a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1 class="hero-title">
+                Hi, I'm <br>
+                <span class="highlight-text">Winnie Rotich.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Web Developer & Software Development Student <br> based in <strong>Kenya.</strong>
+            </p>
+            <p class="hero-description">
+                I help build practical systems and responsive digital experiences that connect. Focusing on Angular, TypeScript, and modern Front-End development.
+            </p>
+            <div class="hero-actions">
+                <a href="#work" class="btn-pill btn-primary">View my work <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#about" class="btn-pill btn-outline"><i class="fa-regular fa-user"></i> About me</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <!-- Background glow behind the image -->
+            <div class="hero-glow"></div>
+            
+            <div class="profile-circle">
+                <!-- Instruction: Place your image 'profile.jpg' in the same folder as this HTML file -->
+                <img src="profile.jpg" alt="Winnie Rotich" onerror="this.src='https://placehold.co/500x500/FFE4D6/E87A5D?text=Winnie\nRotich'">
+            </div>
+            
+            <div class="availability-card">
+                <div class="status">
+                    <span class="dot"></span> Available for work
+                </div>
+                <p>I'm currently accepting new projects and roles for <strong>2026.</strong></p>
+                <a href="#" class="download-link"><i class="fa-solid fa-arrow-right"></i> Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Technologies -->
+    <section class="technologies">
+        <div class="tech-label">Core Technologies</div>
+        <div class="tech-logos">
+            <span><i class="fa-brands fa-angular"></i> Angular</span>
+            <span><i class="fa-brands fa-js"></i> TypeScript</span>
+            <span><i class="fa-brands fa-html5"></i> HTML5</span>
+            <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+            <span><i class="fa-brands fa-github"></i> GitHub</span>
+        </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section class="work" id="work">
+        <div class="work-header">
+            <div class="work-title-area">
+                <span class="section-label">SELECTED WORK</span>
+                <h2>Practical projects that<br>solve real problems.</h2>
+            </div>
+            <a href="https://github.com" target="_blank" class="btn-pill btn-outline-dark">View all projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="work-grid">
+            <!-- Project 1 -->
+            <div class="work-card">
+                <div class="work-image-container" style="background-color: #FFC9B9;">
+                    <div class="work-badge">Web App</div>
+                    <div class="work-mockup">
+                        <i class="fa-solid fa-dumbbell"></i>
+                        <p>Gym System</p>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-text">
+                        <h3>Angular Gym Management System</h3>
+                        <p>Multi-page architecture</p>
+                    </div>
+                    <a href="#" class="circle-btn"><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="work-card">
+                <div class="work-image-container" style="background-color: #F1F1F1;">
+                    <div class="work-badge">Web Design</div>
+                    <div class="work-mockup" style="color: #4A4A4A;">
+                        <i class="fa-regular fa-id-badge"></i>
+                        <p>Portfolio</p>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-text">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>HTML, CSS, Responsive UI</p>
+                    </div>
+                    <a href="#" class="circle-btn"><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+
+            <!-- Empty Project for symmetry -->
+            <div class="work-card">
+                <div class="work-image-container" style="background-color: #FFEAE3;">
+                    <div class="work-badge">Learning</div>
+                    <div class="work-mockup" style="color: #E87A5D;">
+                        <i class="fa-solid fa-code"></i>
+                        <p>More Coming Soon</p>
+                    </div>
+                </div>
+                <div class="work-info">
+                    <div class="work-text">
+                        <h3>Current Focus</h3>
+                        <p>Advanced Angular & TS</p>
+                    </div>
+                    <a href="#" class="circle-btn"><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote / About Section -->
+    <section class="testimonial" id="about">
+        <div class="quote-card">
+            <div class="quote-icon">"</div>
+            <p class="quote-text">
+                Winnie is a motivated and developing software professional. Her recent work focuses on creating practical systems that solve real-world problems. She is continuously improving her skills through hands-on programming and web-development projects.
+            </p>
+            <div class="quote-author">
+                <div class="author-image">
+                    <!-- Instruction: Place your image 'profile.jpg' in the same folder -->
+                    <img src="profile.jpg" alt="Winnie" onerror="this.src='https://placehold.co/100x100/E87A5D/FFF?text=WR'">
+                </div>
+                <div class="author-info">
+                    <strong>Winnie Rotich</strong>
+                    <span>Software Student</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer CTA -->
+    <footer id="contact">
+        <div class="footer-cta">
+            <h2>Let's create something<br>amazing together.</h2>
+            <div class="footer-contact">
+                <a href="mailto:your.email@example.com" class="email">hello@winnierotich.design</a>
+                <p>+254 (0) XXX XXX XXX</p>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
